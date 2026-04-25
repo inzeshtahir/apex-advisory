@@ -1,179 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Apex Advisory</title>
-  <meta
-    name="description"
-    content="Contact Apex Advisory for personal tax, contractor tax, rental income, and small business tax services."
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Apex Advisory</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">A</span>
-        <div>
-          <span class="brand-name">Apex Advisory</span>
-          <span class="brand-subtitle">Tax & Accounting Services</span>
-        </div>
-      </a>
 
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#reviews">Reviews</a>
-        <a href="contact.html" class="nav-cta active">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <header class="navbar">
+        <a href="index.html" class="logo">Apex Advisory</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#about">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+        </nav>
+    </header>
 
-  <main class="page-main">
-    <section class="page-hero compact-hero">
-      <div class="container">
-        <p class="eyebrow">Contact</p>
-        <h1>Let’s make your next tax step feel easier.</h1>
-        <p class="page-intro">
-          Reach out with your questions, service needs, or consultation request. The page below is
-          structured to make it simple for clients to contact you with confidence.
-        </p>
-      </div>
+    <section class="contact-hero">
+        <span>Contact Us</span>
+        <h1>Let’s build a reliable trade connection.</h1>
+        <p>Reach out for sourcing, buyer connection, or brokerage support.</p>
     </section>
 
     <section class="contact-section">
-      <div class="container contact-grid">
-        <div class="contact-info-panel">
-          <div class="contact-card large">
-            <p class="contact-label">Direct Contact</p>
+        <div class="contact-info-box">
             <h2>Apex Advisory</h2>
-            <p class="contact-text">
-              Tax and accounting support for individuals, contractors, rental property owners,
-              and small businesses.
-            </p>
+            <p class="muted">Canada-based import brokerage service.</p>
 
-            <div class="contact-list">
-              <div class="contact-item">
-                <span>Email</span>
-                <a href="mailto:izan.tahir10@gmail.com">izan.tahir10@gmail.com</a>
-              </div>
-
-              <div class="contact-item">
-                <span>Phone</span>
-                <a href="tel:+12269988098">+1 226 998 8098</a>
-              </div>
-
-              <div class="contact-item">
-                <span>LinkedIn</span>
-                <a href="#" target="_blank" rel="noopener">Izan Tahir</a>
-              </div>
+            <div class="info-item">
+                <strong>Email</strong>
+                <p>apexadvisoryy@gmail.com</p>
             </div>
-          </div>
 
-          <div class="contact-card">
-            <p class="contact-label">Best For</p>
-            <ul class="contact-bullets">
-              <li>Personal tax return inquiries</li>
-              <li>Self-employed and contractor tax questions</li>
-              <li>Rental income and property tax support</li>
-              <li>Small business tax and filing assistance</li>
-            </ul>
-          </div>
+            <div class="info-item">
+                <strong>Phone</strong>
+                <p>226 993 0886</p>
+            </div>
 
-          <div class="contact-card">
-            <p class="contact-label">Client Experience</p>
-            <p class="contact-text">
-              Keep responses prompt, clear, and reassuring. This layout is designed to feel premium
-              while making every call-to-action visible and easy to use.
-            </p>
-          </div>
+            <div class="info-item">
+                <strong>Address</strong>
+                <p>70 Temperance Street<br>M5H 0B1, Toronto, Ontario, Canada</p>
+            </div>
         </div>
 
-        <div class="contact-form-panel">
-          <div class="form-card">
-            <p class="contact-label">Send a Message</p>
-            <h2>Request a consultation</h2>
-            <p class="form-intro">
-              You can connect this form to Formspree, Netlify Forms, or your own backend later.
-            </p>
-
-            <form class="contact-form" action="#" method="post">
-              <div class="form-row two-col">
-                <div class="form-group">
-                  <label for="fullName">Full Name</label>
-                  <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
-                </div>
-
-                <div class="form-group">
-                  <label for="email">Email Address</label>
-                  <input type="email" id="email" name="email" placeholder="Enter your email" required />
-                </div>
-              </div>
-
-              <div class="form-row two-col">
-                <div class="form-group">
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" placeholder="Optional" />
-                </div>
-
-                <div class="form-group">
-                  <label for="service">Service Needed</label>
-                  <select id="service" name="service" required>
-                    <option value="">Select a service</option>
-                    <option value="Personal Tax Returns">Personal Tax Returns (T1)</option>
-                    <option value="Contractor Taxes">Self-Employed & Contractor Taxes</option>
-                    <option value="Rental Income">Rental Income & Investment Properties</option>
-                    <option value="Business Tax">Small Business Tax Support</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="message">How can we help?</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="6"
-                    placeholder="Tell us a little about your situation or the support you need..."
-                    required
-                  ></textarea>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-gold btn-full">Submit Inquiry</button>
-            </form>
-          </div>
-        </div>
-      </div>
+        <form id="contactForm" class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Company Name" />
+            <textarea placeholder="Tell us what you are looking for" required></textarea>
+            <button type="submit">Send Inquiry</button>
+        </form>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h3>Apex Advisory</h3>
-        <p>Tax & Accounting Services</p>
-      </div>
+    <footer>
+        <p>© 2026 Apex Advisory. All rights reserved.</p>
+    </footer>
 
-      <div>
-        <p><strong>Email:</strong> izan.tahir10@gmail.com</p>
-        <p><strong>Phone:</strong> +1 226 998 8098</p>
-      </div>
-
-      <div>
-        <a href="index.html">Home</a>
-        <a href="index.html#services">Services</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
